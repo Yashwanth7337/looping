@@ -32,7 +32,6 @@ let b=sa1.calculate();
 console.log(b);
 
 
-
 class ca extends account
 {
 min_balance=25000;
@@ -42,7 +41,7 @@ constructor(id,name,loc,amount)
     super(id,name,loc)
     this.acc_bal=amount;
     
-}
+} 
 calculate()
 {
     return this.acc_bal-this.min_balance;
